@@ -7,7 +7,7 @@
 header, footer{
     width: 100vw;
     height: 10vh;
-    background-color: rgb(115, 142, 222);
+    background-color: rgb(190, 111, 197);
     display: flex;
     gap: 10vw;
     align-items: center;
@@ -55,7 +55,7 @@ th, td{
     justify-content: flex-start;
 }
 
-.btn{
+.btnm{
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
@@ -63,10 +63,30 @@ th, td{
     font-weight: 600;
 }
 
+.btnm:hover{
+    text-decoration: none;
+    background-color:  rgb(190, 111, 197);
+    height: 100%;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: rgb(190, 111, 197);
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
+}
+
 .btn:hover{
     text-decoration: none;
-    background-color: rgba(115, 142, 222, 0.5);
-    height: 100%;
+    background-color:  rgb(95, 33, 112);
+    color: rgb(0, 0, 0);
+    padding: 2px;
+    margin: 2px;
+    border-radius: 10px;
+    border: none;
 }
 
 .btnv{
@@ -145,7 +165,7 @@ form>p{
         position: absolute;
         top: 10vh; 
         left: 0;
-        background-color: rgb(115, 142, 222);
+        background-color:  rgb(186, 109, 207);
         width: 100%;
         padding: 1rem 0;
     }
